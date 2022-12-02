@@ -13,9 +13,9 @@ btns.forEach(function (btn) {
     }else if(styles.contains("right")) {
        count++;
     }else {
-        count = 0;
+        count = 1;
     }
-    if (count < 2) {
+    if (count < 1) {
         count = 1;
     }
     value.textContent = count;
