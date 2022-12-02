@@ -16,7 +16,7 @@ btns.forEach(function (btn) {
         count = 0;
     }
     if (count < 2) {
-        count = 0;
+        count = 1;
     }
     value.textContent = count;
    })
