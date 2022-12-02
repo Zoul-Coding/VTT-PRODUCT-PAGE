@@ -1,5 +1,5 @@
 // reset value initial 
-let count = 0;
+let count = 1;
 
 // select value and buttons
 const value = document.querySelector("#counter");
