@@ -82,10 +82,10 @@ svg {
 }
 
 .container-img .flou {
-    width: 500px;
+    width: 520px;
     height: 50px;
     background: #ebebeb;
-    transform: rotate(-15deg) translate(180px, -15px);
+    transform: rotate(-15deg) translate(150px, -15px);
     -webkit-box-shadow: -1px -2px 18px 31px #ebebeb;
     box-shadow: -1px -2px 18px 31px #ebebeb;
 }
@@ -182,6 +182,8 @@ svg {
     cursor: pointer;
 }
 
+/* element animation */
+
 @keyframes animeImg {
     from {
         transform: translateY(53px) rotate(-15deg);
@@ -225,7 +227,7 @@ svg {
     }
 }
 
-/* responsive element */
+/* element responsive */
 
 @media screen and (max-width: 1115px) {
     .container-img .img-first img {
